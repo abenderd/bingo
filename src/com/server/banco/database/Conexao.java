@@ -28,6 +28,14 @@ public class Conexao {
 		conexao = _conexao;
 		cadastroDao = _cadastroDao;
 	}
+
+	public static MeuPreparedStatement getConexao() {
+		return conexao;
+	}
+
+	public static CadastroDAO getCadastrodao() {
+		return cadastroDao;
+	}
 	   
 	   
 

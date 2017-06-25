@@ -27,9 +27,6 @@ public class TelaLogin extends JFrame {
 	private JTextField textFieldEmail;
 	private JPasswordField passwordField;
 
-	/**
-	 * Launch the application.
-	 */
 	public static void main(String[] args) {
 		EventQueue.invokeLater(new Runnable() {
 			public void run() {
